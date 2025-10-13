@@ -43,9 +43,7 @@ System.out.println(p1.getNama());
 ---
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
+https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/781aab13a44ee202e86dcd39f7452acd77e5f261/praktikum/week1-setup-hello-pos
 ---
 
 ## Analisis
