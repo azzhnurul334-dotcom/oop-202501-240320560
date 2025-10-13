@@ -76,12 +76,12 @@ class Produk {
  
  public class HelloOOP {
     public static void main(String[] args) {
-       String namaMhs = "Febiana Saputri";
-       String nim = "240320569";
+       String namaMhs = "Azizah Nurul Putri";
+       String nim = "240320560
        Produk[] daftar = {
-          new Produk("Kacang Tanah", 8000),
-          new Produk("Benih Padi", 45000),
-          new Produk("Benih Jagung", 30000)
+          new Produk("Kacang Hijau", 12000),
+          new Produk("Kacang Tanah", 16000),
+          new Produk("Kedelai", 21000)
        };
        int total = 0;
        System.out.println("Hello World, I am " + namaMhs + "-" + nim);
@@ -102,8 +102,8 @@ import java.util.*;
 import java.util.stream.*;
 public class HelloFunctional {
    public static void main(String[] args) {
-      String nama = "Febiana Saputri";
-      String nim = "240320569";
+      String nama = "Azizah Nurul Putri";
+      String nim = "240320560";
       List<String> produk = Arrays.asList("Kacang Hijau", "Kacang Tanah", "Kedelai");
       List<Integer> harga = Arrays.asList(12000, 160000, 21000);
       System.out.println("Hello World, I am " + nama + "-" + nim);
