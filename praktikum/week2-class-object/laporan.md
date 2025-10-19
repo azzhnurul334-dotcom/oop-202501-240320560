@@ -71,7 +71,7 @@ p1.kurangiStok(25);
         System.out.println("Kode: " + p3.getKode() + ", Nama: " + p3.getNama() + ", Harga: " + p3.getHarga() + ", Stok: " + p3.getStok());
 
 ## Hasil Eksekusi
-praktikum/week2-class-object/screenshots
+https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/main/praktikum/week2-class-object/screenshots
 
 ## Analisis
 *1. Jelaskan bagaimana kode berjalan.*
