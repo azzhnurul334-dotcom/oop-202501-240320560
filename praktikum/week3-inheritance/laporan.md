@@ -28,6 +28,7 @@ Topik:  Inheritance [Pewaris]
 7. lalu commit dan push.
 
 ## Kode Program
+```
 package model;
 
 public class Produk {
@@ -119,7 +120,7 @@ public class MainInheritance {
         CreditBy.tampilkan("Febiana Saputri", "240320569");
     }
 }
-
+```
 
 ## Hasil Eksekusi
 https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/main/praktikum/week3-inheritance/screenshots
