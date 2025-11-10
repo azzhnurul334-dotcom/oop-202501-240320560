@@ -122,10 +122,7 @@ public class MainInheritance {
 
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
----
+https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/main/praktikum/week3-inheritance/screenshots
 
 ## Analisis
 - Program ini merupakan penerapan dari konsep Inheritance (pewarisan) pada OOP di java. Program ini terdiri dari satu superclass berupa Produk dan tiga subclass yaitu Benih, Pupuk, dan AlatPertanian. Masing-masing subclass mewarisi atribut dan method dari superclass, seperti kode, nama, harga, stok, dan lain-lain. Kemudian ditambahkan atribut khusus, misalnya varietas pada subclass Benih, atribut Jenis untuk menunjukkan tipe Pupuk, serta atribut material pada AlatPertanian, method deskripsi() juga ditambahkan untuk menampilkan informasi tambahan yang lebih spesifik mengenai produk. Ketika program dijalankan melalui class utama MainInheritance, sistem terlebih dahulu membuat tiga objek dari masing-masing subclass. Setiap objek diinisialisasi dengan pemanggilan konstruktor masing-masing subclass dan meneruskannya ke konstruktor superclass produk dengan menggunakan super() yang kemudian dilanjutkan dengan memanggil method deskripsi untuk menampilkan detail lengkap. Pada bagian akhir, method CreditBy digunakan untuk menampilkan identitas dari mahasiswa.
