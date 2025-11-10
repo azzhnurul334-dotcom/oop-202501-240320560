@@ -2,11 +2,9 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
-
----
+- Nama  : Azizah Nurul Putri
+- NIM   : 240320560
+- Kelas : 3DSRA
 
 ## Tujuan
 - Mahasiswa memahami konsep inheritance dalam OOP.
@@ -130,25 +128,24 @@ public class MainInheritance {
 ---
 
 ## Analisis
-(
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
----
+- Program ini merupakan penerapan dari konsep Inheritance (pewarisan) pada OOP di java. Program ini terdiri dari satu superclass berupa Produk dan tiga subclass yaitu Benih, Pupuk, dan AlatPertanian. Masing-masing subclass mewarisi atribut dan method dari superclass, seperti kode, nama, harga, stok, dan lain-lain. Kemudian ditambahkan atribut khusus, misalnya varietas pada subclass Benih, atribut Jenis untuk menunjukkan tipe Pupuk, serta atribut material pada AlatPertanian, method deskripsi() juga ditambahkan untuk menampilkan informasi tambahan yang lebih spesifik mengenai produk. Ketika program dijalankan melalui class utama MainInheritance, sistem terlebih dahulu membuat tiga objek dari masing-masing subclass. Setiap objek diinisialisasi dengan pemanggilan konstruktor masing-masing subclass dan meneruskannya ke konstruktor superclass produk dengan menggunakan super() yang kemudian dilanjutkan dengan memanggil method deskripsi untuk menampilkan detail lengkap. Pada bagian akhir, method CreditBy digunakan untuk menampilkan identitas dari mahasiswa.
+- Perbedaan utama antara praktikum minggu ini dan sebelumnya terletak pada penerapan konsep OOP. Pada minggu sebelumnya, praktikum menekankan pembentukan class dan object dengan prinsip enkapsulasi. Sedangkan praktikum kali ini, fokus beralih pada konsep inheritance (pewarisan) melalui pengembangan beberapa subclass yang mewarisi atribut dan metode dari superclass serta menambah atribut khusus di masing-masing subclass.
+- Kendala yang dihadapi selama praktikum kali ini masih berkaitan dengan pengaturan struktur package dan proses import antar class. Hal ini mengakibatkan beberapa error muncul pada saat proses running karena perbedaan letak penyimpanan file penulisan package yang tidak sesuai. Sehingga perlu dilakukan penyesuaian ulang dari masing-masing package untuk mengatasi kendala ini. 
 
 ## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
-
----
+Pada praktikum minggu ini, mahasiswa telah mempelajari dan menerapkan konsep inheritance (pewarisan) dalam pemrograman berorientasi objek menggunakan bahasa Java. Melalui pembuatan class induk Produk dan beberapa class turunan seperti BenihKacang, PupukUrea, dan Alat, mahasiswa memahami bagaimana subclass dapat mewarisi atribut dan metode dari superclass.
+Penerapan inheritance membantu mengurangi duplikasi kode, membuat program lebih terstruktur, mudah dikembangkan, serta menunjukkan hubungan hierarki antar objek. Dengan demikian, mahasiswa mampu mengimplementasikan prinsip pewarisan secara efektif dalam pembuatan program berbasis objek.
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
-   **Jawaban:** …  
+1. Apa keuntungan menggunakan inheritance dibanding membuat class terpisah tanpa hubungan?  
+   *Jawaban:*Keuntungan menggunakan inheritance adalah dapat menghemat kode dengan mewarisi atribut dan metode dari superclass sehingga tidak perlu menulis ulang kode yang sama. Selain itu, program menjadi lebih terstruktur, mudah dipelihara, dan dapat dikembangkan karena adanya hubungan hierarki antar class.
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
-   **Jawaban:** …  
-
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
-   **Jawaban:** …  )
+2. Bagaimana cara subclass memanggil konstruktor superclass?   
+   *Jawaban:*Subclass memanggil konstruktor superclass dengan menggunakan kata kunci super() pada baris pertama konstruktor subclass. Contohnya:
+   public BenihKacang(String kode, String nama, double harga, int stok, String varietas) {
+    super(kode, nama, harga, stok);
+    this.varietas = varietas;
+}
+ 
+3. Berikan contoh kasus di POS pertanian selain Benih, Pupuk, dan Alat Pertanian yang bisa dijadikan subclass.  
+   *Jawaban:*Contoh lainnya adalah Pestisida, Obat Tanaman, atau Peralatan Irigasi, yang semuanya bisa dijadikan subclass dari Produk karena memiliki atribut dasar yang sama seperti kode, nama, harga, dan stok, tetapi memiliki karakteristik tambahan masing-masing
