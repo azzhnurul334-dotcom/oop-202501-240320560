@@ -61,10 +61,7 @@ public class MainPolymorphism {
 }
 
 ## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
-)
----
+(https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/main/praktikum/week4-polymorphism/screenshots)
 
 ## Analisis
 - Jelaskan bagaimana kode berjalan.
