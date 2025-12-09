@@ -79,7 +79,9 @@ public class MainAbstraction {
 ---
 
 ## Hasil Eksekusi
+```
 praktikum/week5-abstraction-interface/screenshots/week 5.jpg
+```
 
 ## Analisis
 - Jelaskan bagaimana kode berjalan.  
