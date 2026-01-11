@@ -1,6 +1,3 @@
-<img width="1237" height="802" alt="uml Agri-POS-sequence-tunai drawio" src="https://github.com/user-attachments/assets/beaa74d6-3c34-4a0f-9c8a-164c9cd4402e" /># Laporan Praktikum Minggu 1 (sesuaikan minggu ke berapa?)
-Topik: Desain Arsitektur dengan UML dan prinsip solid
-
 ## Identitas
 - Nama  : Azizah Nurul Putri
 - NIM   : 240320560
