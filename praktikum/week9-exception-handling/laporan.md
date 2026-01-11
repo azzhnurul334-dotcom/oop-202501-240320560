@@ -97,8 +97,7 @@ public class MainExceptionDemo {
 ```
 ---
 
-## Hasil Eksekusi
-(Sertakan screenshot hasil eksekusi program.  
+## Hasil Eksekusi 
 https://github.com/azzhnurul334-dotcom/oop-202501-240320560/tree/main/praktikum/week9-exception-handling/screenshots
 ---
 
