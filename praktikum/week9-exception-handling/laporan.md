@@ -19,10 +19,11 @@ Mengintegrasikan exception handling ke dalam aplikasi sederhana (kasus keranjang
 
 ## Dasar Teori
 1. Error vs Exception
-Error → kondisi fatal, tidak dapat ditangani (contoh: OutOfMemoryError).
-Exception → kondisi tidak normal yang dapat ditangani oleh program.
+> Error → kondisi fatal, tidak dapat ditangani (contoh: OutOfMemoryError).
+> Exception → kondisi tidak normal yang dapat ditangani oleh program.
 
-2. ```
+2.Struktur try–catch–finally
+   ```
    try {
     // kode yang berpotensi menimbulkan kesalahan
 } catch (Exception e) {
@@ -33,6 +34,7 @@ Exception → kondisi tidak normal yang dapat ditangani oleh program.
 ```
 
 2. Membuat Custom Exception
+   
 ```
 package com.upb.agripos;
 
