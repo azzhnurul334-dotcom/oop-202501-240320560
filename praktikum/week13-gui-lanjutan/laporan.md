@@ -12,12 +12,16 @@
 4. Menghubungkan GUI dengan DAO secara penuh.
 5. Membangun antarmuka GUI Agri-POS yang lebih interaktif.
 
+---
+
 ## Dasar Teori
 1. JavaFX adalah framework Java yang digunakan untuk membangun aplikasi GUI berbasis desktop secara interaktif dan terstruktur.
 2. DAO (Data Access Object) merupakan pola desain yang memisahkan logika akses database dari logika bisnis aplikasi.
 3. JDBC (Java Database Connectivity) digunakan sebagai penghubung antara aplikasi Java dan database relasional.
 4. PreparedStatement digunakan untuk menjalankan query SQL secara aman dan mencegah SQL Injection.
 5. Integrasi GUI dengan database memungkinkan data ditampilkan, ditambah, dan dihapus secara real-time melalui antarmuka pengguna.
+
+---
 
 ## Langkah Praktikum
 1.Menyiapkan project Maven JavaFX dan menambahkan dependency JavaFX serta JDBC PostgreSQL.
@@ -28,6 +32,7 @@
 6. Menjalankan aplikasi dan menguji fitur manajemen produk (tambah, tampil, hapus).
 7. Melakukan commit hasil praktikum ke repository Git.
 
+---
 ## Kode Program
 ```
 package com.upb.agripos;
